@@ -1,0 +1,1320 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playpen+Sans:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#container_principal {
+    margin: 0 auto;
+}
+
+/****************************** INICIO CONTAINER TOPO ******************************/
+
+#container_topo {
+    width: 100%;
+    height: 70px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ab8e66;
+}
+
+.caixa_titulo_topo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caixa_login_cadastro {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+.login {
+    cursor: pointer;
+}
+
+.cadastro {
+    cursor: pointer;
+}
+
+.separador {
+    color: #6f5735;
+}
+
+/****************************** FIM CONTAINER TOPO ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER LOGO ******************************/
+
+#container_logo {
+    width: 100%;
+    height: 130px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa_pesquisa {
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 50px;
+    border-radius: 40px;
+    border: 1px solid #cacaca;
+}
+
+.caixa_input {
+    width: 321px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 39px;
+}
+
+.caixa_input input {
+    width: 300px;
+    height: 48px;
+    outline: none;
+    border: none;
+    border-right: 1px solid #cacaca;
+    border-radius: 39px 0 0 39px;
+    margin-right: 10px;
+    color: #6f5735;
+    margin: 0 10px;
+}
+
+.caixa_input input::placeholder {
+    padding-left: 10px;
+}
+
+.linkAcessorio a {
+    color: #6f5735;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icone_pesquisa {
+    width: 62px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18px;
+    border-radius: 0 40px 40px 0;
+    background: #ab8e66;
+    cursor: pointer;
+}
+
+.caixa_icones_header {
+    width: 77px;
+    height: 50px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/****************************** FIM CONTAINER LOGO ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO HEADER ******************************/
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    background: #f3f3f3;
+}
+
+.linkCategorias {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: #ab8e66;
+}
+
+.linkCategorias a {
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkCategorias svg {
+    cursor: pointer;
+}
+
+.navegacao ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.navegacao ul li a {
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.navegacao ul li a:hover {
+    color: #6f5735;
+    border-bottom: 1px solid #6f5735;
+}
+
+/****************************** FIM HEADER ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER PRODUTO PRINCIPAL ******************************/
+
+#container_produto_principal {
+    width: 100%;
+    height: 500px;
+    padding: 0 100px;
+    margin-top: 30px;
+}
+
+.caixa_secundaria_produto {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+}
+
+.caixa_left {
+    width: 530px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/****/
+
+.caixa_right {
+    width: 530px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_principal {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo_principal h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c7b6a6;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.descricao_produto_principal {
+    width: 270px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.descricao_produto_principal p {
+    color: #333;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descricao_produto_principal span {
+    color: #c7b6a6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa_preco_principal {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_preco_principal p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #979696;
+}
+
+.caixa_preco_principal span {
+    color: #ab8e66;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.caixa_btn_principal button {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.caixa_btn_principal button:hover {
+    color: #6f5735;
+    text-decoration: underline;
+    transition: all 1s ease;
+}
+
+/****************************** FIM CONTAINER PRODUTO PRINCIPAL ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER PROPAGANDA ******************************/
+
+#container_propaganda {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.caixa_left_propaganda {
+    width: 330px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    background: #efefef;
+}
+
+.caixa_interna_left {
+    width: 165px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_interna_left h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.caixa_interna_left p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.caixa_btn_propaganda {
+    margin-top: 25px;
+}
+
+.caixa_btn_propaganda button {
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #ab8e66;
+    padding-left: -10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.caixa_interna_left_img {
+    width: 165px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_interna_left_img img {
+    width: 190px;
+    height: 250px;
+    margin-top: -25px;
+}
+
+/*************************************/
+
+.caixa_center_propaganda {
+    position: relative;
+    width: 330px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+}
+
+.caixa_perfume_propaganda img {
+    width: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.caixa_perfume_propaganda_2 img {
+    width: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3px;
+    transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+}
+
+.caixa_center_propaganda h3 {
+    width: 116px;
+    font-family: monospace;
+    font-size: 16px;
+    color: #ab8e66;
+}
+
+.descricao_propaganda p {
+    width: 200px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.caixa_codigo_promocao {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #979696;
+}
+
+.caixa_codigo_promocao span {
+    color: #ab8e66;
+    font-size: 17px;
+}
+
+.descricao_propaganda span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab8e66;
+}
+
+/**************************************/
+
+.caixa_right_propaganda {
+    width: 330px;
+    height: 280px;
+    background: #efefef;
+}
+
+.caixa_right_propaganda {
+    width: 330px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    background: #efefef;
+}
+
+.caixa_interna_right {
+    width: 165px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_interna_right h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.caixa_interna_right p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.caixa_btn_propaganda {
+    margin-top: 25px;
+}
+
+.caixa_btn_propaganda button {
+    background: transparent;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #ab8e66;
+    padding-left: -10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.caixa_interna_right_img {
+    width: 165px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_interna_right_img img {
+    width: 190px;
+    height: 250px;
+}
+
+/****************************** FIM CONTAINER PROPAGANDA ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER BOTOES ******************************/
+
+#container_botoes {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.caixa_btn_botoes_1 button {
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ab8e66;
+    color: #f3f3f3;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.caixa_btn_botoes_2 button {
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background: #333;
+    color: #f3f3f3;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+/****************************** FIM CONTAINER BOTOES ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER PRODUTOS ******************************/
+
+.p_slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 95%;
+}
+
+.product_slider_heading {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.product_box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.p_img_container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.p_img a,
+.p_img {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.p_img a img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+
+.p_box_text {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.product_category {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product_category span {
+    color: #acacac;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+}
+
+.product_title {
+    color: #333333;
+    font-weight: 600;
+    transition: all ease 0.3s;
+}
+
+.product_title:hover {
+    color: #111111;
+    opacity: 0.7;
+    transition: all ease 0.3s;
+}
+
+.price_buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.price_buy .p_price {
+    font-size: 1.3rem;
+    color: #333333;
+    font-weight: 700;
+}
+
+.price_buy .p_buy_btn {
+    color: #e63b3b;
+    margin: 0px 5px;
+    font-weight: 600;
+}
+
+.price_buy .p_buy_btn:hover {
+    text-decoration: underline;
+}
+
+.p_discount {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: 65px;
+    height: 24px;
+    color: #fff;
+    background-color: #e63b3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    z-index: 100;
+    border-radius: 3px;
+}
+
+.slider_btns {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: 30px auto 10px auto;
+    padding: 0px 10px;
+}
+
+.slider_btns button {
+    position: static !important;
+    transform: translate(0,0);
+    background-color: #f3f3f3;
+    width: 80px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+}
+
+.slider_btns button span {
+    font-weight: bold;
+    padding: 10px 15px 10px 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.slider_btns button span::before, 
+.slider_btns button span::after {
+    border-right: 2px solid;
+    display: block;
+    height: 8px;
+    margin-top: -6px;
+    position: absolute;
+    transform: rotate(135deg);
+    right: 10px;
+    top: 50%;
+    width: 0;
+    content: '';
+}
+
+.slider_btns button span::after {
+    margin-top: -1px;
+    transform: rotate(45deg);
+}
+
+.slider_btns .glider-prev span {
+    transform: rotate(-180deg);
+}
+
+/****************************** FIM CONTAINER PRODUTOS ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER COLEÇÃO ******************************/
+
+#container_colecao {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background: #efefef;
+}
+
+.caixa_left_colecao {
+    width: 625px;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.titulo_colecao h4 {
+    color: #ab8e66;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.caixa_titulo_colecao {
+    width: 400px;
+    height: 135px;
+}
+
+.caixa_titulo_colecao h1 {
+    color: #424242;
+    font-size: 2.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caixa_titulo_colecao span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ab8e66;
+}
+
+.caixa_btn_colecao {
+    margin-top: 25px;
+}
+
+.caixa_btn_colecao button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #ab8e66;
+    text-decoration: underline;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/****/
+
+.caixa_right_colecao {
+    position: relative;
+    width: 625px;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_presente img {
+    position: absolute;
+    width: 300px;
+    right: 160px;
+    top: 90px;
+}
+
+.perfume_1 img {
+    position: absolute;
+    width: 150px;
+    right: 110px;
+    top: 220px;
+}
+
+.perfume_2 img {
+    position: absolute;
+    width: 150px;
+    left: 80px;
+    top: 210px;
+}
+
+.perfume_3 img {
+    position: absolute;
+    width: 150px;
+    left: 150px;
+    top: 240px;
+}
+
+.perfume_4 img {
+    position: absolute;
+    width: 150px;
+    right: 185px;
+}
+
+.perfume_5 img {
+    position: absolute;
+    width: 150px;
+    right: 255px;
+    top: 270px;
+}
+
+.perfume_6 img {
+    position: absolute;
+    width: 150px;
+    top: 40px;
+    right: 120px;
+    transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	-webkit-transform: rotate(20deg);
+}
+
+.perfume_7 img {
+    position: absolute;
+    width: 150px;
+    top: 20px;
+    right: 230px;
+    transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+}
+
+.perfume_8 img {
+    position: absolute;
+    width: 150px;
+    top: 45px;
+    right: 355px;
+    transform: rotate(-30deg);
+	-ms-transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+}
+
+/****************************** FIM CONTAINER COLEÇÃO ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER PRODUTO DESTAQUE ******************************/
+
+#container_produtos_destaque {
+    width: 100%;
+    height: 75vh;
+    margin-top: 30px;
+}
+
+.caixa_titulo_destaque {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_titulo_destaque h1 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #313131;
+}
+
+.caixa_principal_destaque {
+    width: 100%;
+    height: 170px;
+    margin-top: 7px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.caixa_produto_destaque {
+    width: 320px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ebebeb;
+}
+
+.caixa_left_destaque {
+    width: 140px;
+    height: 150px;
+    margin-left: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+}
+
+.caixa_left_destaque img {
+    width: 110px;
+    object-fit: cover;
+}
+
+/****/
+
+.caixa_right_destaque {
+    width: 180px;
+    height: 150px;
+}
+
+.caixa_titulo_produto {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.caixa_titulo_produto h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ab8e66;
+    font-weight: 500;
+}
+
+.caixa_star {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.caixa_preco_destaque {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.caixa_preco_destaque h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa_btn_destaque {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.caixa_btn_destaque button {
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    background: #ab8e66;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.caixa_btn_destaque button:hover {
+    color: #ab8e66;
+    border: 1px solid #ab8e66;
+    background: transparent;
+    transition: all 0.8s;
+}
+
+/****************************** FIM CONTAINER PRODUTO DESTAQUE ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER NOTICIAS ******************************/
+
+#container_noticias {
+    width: 100%;
+    height: 90vh;
+}
+
+.caixa_principal_noticias {
+    width: 100%;
+    height: 460px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.caixa_noticias {
+    width: 330px;
+    height: 410px;
+}
+
+.caixa_img_noticia {
+    width: 330px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3e3e3;
+}
+
+.caixa_img_noticia img {
+    width: 330px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.titulo_postagem {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo_postagem h5 {
+    color: #acacac;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.titulo_noticia {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo_noticia h3 {
+    color: #333;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+
+.descricao_noticia {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.descricao_noticia i {
+    color: #acacac;
+    font-size: 0.9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.caixa_btn_noticia {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.caixa_btn_noticia button {
+    color: #ab8e66;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/****************************** FIM CONTAINER NOTICIAS ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO CONTAINER GALERIA FOTOS ******************************/
+
+#container_galeria_fotos {
+    width: 100%;
+    height: 60vh;
+    color: #6f5735;
+}
+
+.caixa_instagram_icone {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_galeria_img {
+    width: 100%;
+    height: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_img_galeria {
+    width: 252.4px;
+    height: 206px;
+}
+
+.caixa_img_galeria img {
+    width: 252.4px;
+    height: 206px;
+    object-fit: cover;
+}
+
+/****************************** FIM CONTAINER GALERIA FOTOS ******************************/
+
+/****/
+
+/****/
+
+/****************************** INICIO FOOTER ******************************/
+
+footer {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2px;
+    background: #e3e3e3;
+}
+
+.caixa_footer_left {
+    width: 300px;
+    height: 55vh;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_footer_left h3 {
+    color: #ab8e66;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.caixa_footer_left p {
+    color: #979696;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.caixa_footer_left p:hover {
+    color: #6f5735;
+}
+
+/****/
+
+/****/
+
+.caixa_footer_center {
+    width: 550px;
+    height: 55vh;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo_footer_center {
+    color: #ab8e66;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.descricao_footer {
+    width: 330px;
+    text-align: center;
+}
+
+.descricao_footer i {
+    color: #979696;
+    font-weight: 400;
+}
+
+.caixa_email input {
+    width: 350px;
+    height: 45px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+
+.caixa_email input::placeholder {
+    color: #acacac;
+}
+
+.caixa_btn_footer button {
+    width: 350px;
+    height: 45px;
+    border: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.02rem;
+    background: #ab8e66;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.caixa_icone_footer {
+    width: 350px;
+    height: 60px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone_footer {
+    cursor: pointer;
+}
+
+/****/
+
+/****/
+
+.caixa_footer_right {
+    width: 300px;
+    height: 55vh;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa_footer_right p {
+    color: #979696;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.caixa_footer_right p:hover {
+    color: #6f5735;
+}
+
+/****************************** FIM FOOTER ******************************/
+
+
+#dados_programador {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1px;
+    background-color: #e3e3e3;
+}
+
+.nome {
+    color: #ab8e66;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome span {
+    color: #6f5735;
+}
+
+.contato_programador {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #ab8e66;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email_programador {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #ab8e66;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
